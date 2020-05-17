@@ -1,7 +1,7 @@
 IRobot
 ======
 
-IRobot is a tool to download hcaptcha challenge images from any website using puppeteer.
+Download hcaptcha challenge images using puppeteer.
 
 Install
 =======
