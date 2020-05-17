@@ -31,4 +31,4 @@ From that point you can use deep neural networks to identify images and respond 
 
 Image sample below retrieved from hcaptcha and identified by using [opencv](https://github.com/opencv/opencv) and [darknet](https://pjreddie.com/darknet/).
 
-![dnn][https://github.com/erhangundogan/irobot/blob/master/dnn.png]
+![dnn](https://github.com/erhangundogan/irobot/blob/master/dnn.png)
