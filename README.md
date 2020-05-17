@@ -25,7 +25,8 @@ If all goes well application downloads captcha challenge images into the `images
 Keyword is: motorcycle
 ```
 
-If it doesn't work for some reason you would get error in the console. From that point you could use deep neural networks to identify images and do whatever you want. Good luck ;)
+If it doesn't work for some reason you would get error in the console (no hcaptcha page, network error, hcaptcha update in the source code etc.).
+If it works then you could use deep neural networks to identify images and do whatever you want. Good luck ;)
 
 Image sample below downloaded using the app and identified with [opencv](https://github.com/opencv/opencv) and [darknet](https://pjreddie.com/darknet/).
 
