@@ -1,0 +1,5 @@
+node_modules
+images/*.jpg
+ss/*.png
+tmp
+*.log

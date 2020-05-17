@@ -1,0 +1,15 @@
+{
+  "name": "irobot",
+  "version": "0.0.1",
+  "description": "hcaptcha image download tool",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env CAPTCHA_DOMAIN='' node app.js"
+  },
+  "author": "Erhan Gundogan <erhan.gundogan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "puppeteer": "^2.1.1"
+  }
+}
