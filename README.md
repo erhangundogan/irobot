@@ -19,16 +19,14 @@ Provide env variable `CAPTCHA_DOMAIN` for the hcaptcha domain and run command be
 $ yarn start
 ```
 
-If all goes well application downloads captcha challenge images into the `images/` folder and also saves screenshot to `ss/` folder.
-
-You would also see challenge keyword on the console:
+If all goes well application downloads captcha challenge images into the `images/` folder and also saves screenshot to `ss/` folder. You would also see challenge keyword in the console:
 
 ```
 Keyword is: motorcycle
 ```
 
-From that point you can use deep neural networks to identify images and respond to the hcaptcha. Good luck! ;)
+If it doesn't work for some reason you would get error in the console. From that point you could use deep neural networks to identify images and do whatever you want. Good luck ;)
 
-Image sample below retrieved from hcaptcha and identified by using [opencv](https://github.com/opencv/opencv) and [darknet](https://pjreddie.com/darknet/).
+Image sample below downloaded using the app and identified with [opencv](https://github.com/opencv/opencv) and [darknet](https://pjreddie.com/darknet/).
 
 ![dnn](https://github.com/erhangundogan/irobot/blob/master/dnn.png)
